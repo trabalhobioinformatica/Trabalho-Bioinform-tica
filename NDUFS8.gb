@@ -1,0 +1,614 @@
+LOCUS       NG_017040              13031 bp    DNA     linear   PRI 25-OCT-2019
+DEFINITION  Homo sapiens NADH:ubiquinone oxidoreductase core subunit S8
+            (NDUFS8), RefSeqGene on chromosome 11.
+ACCESSION   NG_017040
+VERSION     NG_017040.1
+KEYWORDS    RefSeq; RefSeqGene.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 13031)
+  AUTHORS   Rahman,S. and Thorburn,D.
+  TITLE     Nuclear Gene-Encoded Leigh Syndrome Overview
+  JOURNAL   (in) Adam MP, Ardinger HH, Pagon RA, Wallace SE, Bean LJH, Stephens
+            K and Amemiya A (Eds.); GENEREVIEWS((R)); (1993)
+   PUBMED   26425749
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AC004923.2 and AP002807.3.
+            This sequence is a reference standard in the RefSeqGene project.
+            Summary: This gene encodes a subunit of mitochondrial
+            NADH:ubiquinone oxidoreductase, or Complex I, a multimeric enzyme
+            of the respiratory chain responsible for NADH oxidation, ubiquinone
+            reduction, and the ejection of protons from mitochondria. The
+            encoded protein is involved in the binding of two of the six to
+            eight iron-sulfur clusters of Complex I and, as such, is required
+            in the electron transfer process. Mutations in this gene have been
+            associated with Leigh syndrome. [provided by RefSeq, Mar 2010].
+FEATURES             Location/Qualifiers
+     source          1..13031
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="11"
+                     /map="11q13.2"
+     gene            <1..3660
+                     /gene="ALDH3B1"
+                     /gene_synonym="ALDH4; ALDH7"
+                     /note="aldehyde dehydrogenase 3 family member B1"
+                     /db_xref="GeneID:221"
+                     /db_xref="HGNC:HGNC:410"
+                     /db_xref="MIM:600466"
+     mRNA            join(<394..493,2134..3660)
+                     /gene="ALDH3B1"
+                     /gene_synonym="ALDH4; ALDH7"
+                     /product="aldehyde dehydrogenase 3 family member B1,
+                     transcript variant 1"
+                     /inference="similar to RNA sequence, mRNA (same
+                     species):RefSeq:NM_000694.4"
+                     /exception="annotated by transcript or proteomic data"
+                     /note="The RefSeq transcript has 3 non-frameshifting indels
+                     compared to this genomic sequence"
+                     /transcript_id="NM_000694.4"
+                     /db_xref="GeneID:221"
+                     /db_xref="HGNC:HGNC:410"
+                     /db_xref="MIM:600466"
+     mRNA            join(<394..493,2134..3660)
+                     /gene="ALDH3B1"
+                     /gene_synonym="ALDH4; ALDH7"
+                     /product="aldehyde dehydrogenase 3 family member B1,
+                     transcript variant 3"
+                     /inference="similar to RNA sequence, mRNA (same
+                     species):RefSeq:NM_001161473.3"
+                     /exception="annotated by transcript or proteomic data"
+                     /note="The RefSeq transcript has 3 non-frameshifting indels
+                     compared to this genomic sequence"
+                     /transcript_id="NM_001161473.3"
+                     /db_xref="GeneID:221"
+                     /db_xref="HGNC:HGNC:410"
+                     /db_xref="MIM:600466"
+     mRNA            join(<394..493,2134..3660)
+                     /gene="ALDH3B1"
+                     /gene_synonym="ALDH4; ALDH7"
+                     /product="aldehyde dehydrogenase 3 family member B1,
+                     transcript variant 4"
+                     /inference="similar to RNA sequence, mRNA (same
+                     species):RefSeq:NM_001290058.2"
+                     /exception="annotated by transcript or proteomic data"
+                     /note="The RefSeq transcript has 3 non-frameshifting indels
+                     compared to this genomic sequence"
+                     /transcript_id="NM_001290058.2"
+                     /db_xref="GeneID:221"
+                     /db_xref="HGNC:HGNC:410"
+                     /db_xref="MIM:600466"
+     mRNA            join(<394..493,2134..3660)
+                     /gene="ALDH3B1"
+                     /gene_synonym="ALDH4; ALDH7"
+                     /product="aldehyde dehydrogenase 3 family member B1,
+                     transcript variant 5"
+                     /inference="similar to RNA sequence, mRNA (same
+                     species):RefSeq:NM_001290059.2"
+                     /exception="annotated by transcript or proteomic data"
+                     /note="The RefSeq transcript has 3 non-frameshifting indels
+                     compared to this genomic sequence"
+                     /transcript_id="NM_001290059.2"
+                     /db_xref="GeneID:221"
+                     /db_xref="HGNC:HGNC:410"
+                     /db_xref="MIM:600466"
+     mRNA            join(<394..493,2134..3660)
+                     /gene="ALDH3B1"
+                     /gene_synonym="ALDH4; ALDH7"
+                     /product="aldehyde dehydrogenase 3 family member B1,
+                     transcript variant 2"
+                     /inference="similar to RNA sequence, mRNA (same
+                     species):RefSeq:NM_001030010.3"
+                     /exception="annotated by transcript or proteomic data"
+                     /note="The RefSeq transcript has 2 non-frameshifting indels
+                     compared to this genomic sequence"
+                     /transcript_id="NM_001030010.3"
+                     /db_xref="GeneID:221"
+                     /db_xref="HGNC:HGNC:410"
+                     /db_xref="MIM:600466"
+     CDS             join(<394..493,2134..2323)
+                     /gene="ALDH3B1"
+                     /gene_synonym="ALDH4; ALDH7"
+                     /EC_number="1.2.1.5"
+                     /EC_number="1.2.1.28"
+                     /EC_number="1.2.1.7"
+                     /inference="similar to AA sequence (same
+                     species):RefSeq:NP_001154945.1"
+                     /exception="annotated by transcript or proteomic data"
+                     /note="isoform a is encoded by transcript variant 3; The
+                     RefSeq protein has 3 frameshifts compared to this genomic
+                     sequence; aldehyde dehydrogenase 3B1; aldehyde
+                     dehydrogenase 7"
+                     /codon_start=3
+                     /product="aldehyde dehydrogenase family 3 member B1 isoform
+                     a"
+                     /protein_id="NP_001154945.1"
+                     /db_xref="CCDS:CCDS73335.1"
+                     /db_xref="GeneID:221"
+                     /db_xref="HGNC:HGNC:410"
+                     /db_xref="MIM:600466"
+                     /translation="MDPLGDTLRRLREAFHAGRTRPAEFRAAQLQGLGRFLQENKQLLH
+                     DALAQDLHKSAFESEVSEVAISQGEVTLALRNLRAWMKDERVPKNLATQLDSAFIRKEP
+                     FGLVLIIAPWNYPLNLTLVPLVGALAAGNCVVLKPSEISKNVEKILAEVLPQYVDQSCF
+                     AVVLGGPQETGQLLEHRFDYIFFTGSPRVGKIVMTAAAKHLTPVTLELGGKNPCYVDDN
+                     CDPQTVANRVAWFRYFNAGQTCVAPDYVLCSPEMQERLLPALQSTITRFYGDDPQSSPN
+                     LGRIINQKQFQRLRALLGCGRVAIGGQSDESDRYIAPTVLVDVQEMEPVMQEEIFGPIL
+                     PIVNVQSLDEAIEFINRREKPLALYAFSNSSQVVKRVLTQTSSGGFCGNDGFMHMTLAS
+                     LPFGGVGASGMGRYHGKFSFDTFSHHRACLLRSPGMEKLNALRYPPQSPRRLRMLLVAM
+                     EAQGCSCTLL"
+     CDS             join(<394..493,2134..2323)
+                     /gene="ALDH3B1"
+                     /gene_synonym="ALDH4; ALDH7"
+                     /EC_number="1.2.1.5"
+                     /EC_number="1.2.1.28"
+                     /EC_number="1.2.1.7"
+                     /inference="similar to AA sequence (same
+                     species):RefSeq:NP_000685.1"
+                     /exception="annotated by transcript or proteomic data"
+                     /note="isoform a is encoded by transcript variant 1; The
+                     RefSeq protein has 3 frameshifts compared to this genomic
+                     sequence; aldehyde dehydrogenase 3B1; aldehyde
+                     dehydrogenase 7"
+                     /codon_start=3
+                     /product="aldehyde dehydrogenase family 3 member B1 isoform
+                     a"
+                     /protein_id="NP_000685.1"
+                     /db_xref="CCDS:CCDS73335.1"
+                     /db_xref="GeneID:221"
+                     /db_xref="HGNC:HGNC:410"
+                     /db_xref="MIM:600466"
+                     /translation="MDPLGDTLRRLREAFHAGRTRPAEFRAAQLQGLGRFLQENKQLLH
+                     DALAQDLHKSAFESEVSEVAISQGEVTLALRNLRAWMKDERVPKNLATQLDSAFIRKEP
+                     FGLVLIIAPWNYPLNLTLVPLVGALAAGNCVVLKPSEISKNVEKILAEVLPQYVDQSCF
+                     AVVLGGPQETGQLLEHRFDYIFFTGSPRVGKIVMTAAAKHLTPVTLELGGKNPCYVDDN
+                     CDPQTVANRVAWFRYFNAGQTCVAPDYVLCSPEMQERLLPALQSTITRFYGDDPQSSPN
+                     LGRIINQKQFQRLRALLGCGRVAIGGQSDESDRYIAPTVLVDVQEMEPVMQEEIFGPIL
+                     PIVNVQSLDEAIEFINRREKPLALYAFSNSSQVVKRVLTQTSSGGFCGNDGFMHMTLAS
+                     LPFGGVGASGMGRYHGKFSFDTFSHHRACLLRSPGMEKLNALRYPPQSPRRLRMLLVAM
+                     EAQGCSCTLL"
+     CDS             join(<394..493,2134..2323)
+                     /gene="ALDH3B1"
+                     /gene_synonym="ALDH4; ALDH7"
+                     /EC_number="1.2.1.5"
+                     /EC_number="1.2.1.28"
+                     /EC_number="1.2.1.7"
+                     /inference="similar to AA sequence (same
+                     species):RefSeq:NP_001276987.1"
+                     /exception="annotated by transcript or proteomic data"
+                     /note="isoform c is encoded by transcript variant 4; The
+                     RefSeq protein has 3 frameshifts compared to this genomic
+                     sequence; aldehyde dehydrogenase 3B1; aldehyde
+                     dehydrogenase 7"
+                     /codon_start=3
+                     /product="aldehyde dehydrogenase family 3 member B1 isoform
+                     c"
+                     /protein_id="NP_001276987.1"
+                     /db_xref="CCDS:CCDS76443.1"
+                     /db_xref="GeneID:221"
+                     /db_xref="HGNC:HGNC:410"
+                     /db_xref="MIM:600466"
+                     /translation="MDPLGDTLRRLREAFHAGRTRPAEFRAAQLQGLGRFLQENKQLLH
+                     DALAQDLHKSAFESEVSEVAISQGEVTLALRNLRAWMKDERVPKNLATQLDSAFIRKEP
+                     FGLVLIIAPWNYPLNLTLVPLVGALAAGNCVVLKPSEISKNVEKILAEVLPQYVDQSSP
+                     NLGRIINQKQFQRLRALLGCGRVAIGGQSDESDRYIAPTVLVDVQEMEPVMQEEIFGPI
+                     LPIVNVQSLDEAIEFINRREKPLALYAFSNSSQVVKRVLTQTSSGGFCGNDGFMHMTLA
+                     SLPFGGVGASGMGRYHGKFSFDTFSHHRACLLRSPGMEKLNALRYPPQSPRRLRMLLVA
+                     MEAQGCSCTLL"
+     CDS             join(<394..493,2134..2323)
+                     /gene="ALDH3B1"
+                     /gene_synonym="ALDH4; ALDH7"
+                     /EC_number="1.2.1.5"
+                     /EC_number="1.2.1.28"
+                     /EC_number="1.2.1.7"
+                     /inference="similar to AA sequence (same
+                     species):RefSeq:NP_001276988.1"
+                     /exception="annotated by transcript or proteomic data"
+                     /note="isoform d is encoded by transcript variant 5; The
+                     RefSeq protein has 2 frameshifts compared to this genomic
+                     sequence; aldehyde dehydrogenase 3B1; aldehyde
+                     dehydrogenase 7"
+                     /codon_start=3
+                     /product="aldehyde dehydrogenase family 3 member B1 isoform
+                     d"
+                     /protein_id="NP_001276988.1"
+                     /db_xref="GeneID:221"
+                     /db_xref="HGNC:HGNC:410"
+                     /db_xref="MIM:600466"
+                     /translation="MTAAAKHLTPVTLELGGKNPCYVDDNCDPQTVANRVAWFRYFNAG
+                     QTCVAPDYVLCSPEMQERLLPALQSTITRFYGDDPQSSPNLGRIINQKQFQRLRALLGC
+                     GRVAIGGQSDESDRYIAPTVLVDVQEMEPVMQEEIFGPILPIVNVQSLDEAIEFINRRE
+                     KPLALYAFSNSSQVVKRVLTQTSSGGFCGNDGFMHMTLASLPFGGVGASGMGRYHGKFS
+                     FDTFSHHRACLLRSPGMEKLNALRYPPQSPRRLRMLLVAMEAQGCSCTLL"
+     CDS             join(<394..493,2134..2323)
+                     /gene="ALDH3B1"
+                     /gene_synonym="ALDH4; ALDH7"
+                     /EC_number="1.2.1.5"
+                     /EC_number="1.2.1.28"
+                     /EC_number="1.2.1.7"
+                     /inference="similar to AA sequence (same
+                     species):RefSeq:NP_001025181.1"
+                     /exception="annotated by transcript or proteomic data"
+                     /note="isoform b is encoded by transcript variant 2; The
+                     RefSeq protein has 2 frameshifts compared to this genomic
+                     sequence; aldehyde dehydrogenase 3B1; aldehyde
+                     dehydrogenase 7"
+                     /codon_start=3
+                     /product="aldehyde dehydrogenase family 3 member B1 isoform
+                     b"
+                     /protein_id="NP_001025181.1"
+                     /db_xref="CCDS:CCDS73336.1"
+                     /db_xref="GeneID:221"
+                     /db_xref="HGNC:HGNC:410"
+                     /db_xref="MIM:600466"
+                     /translation="MDPLGDTLRRLREAFHAGRTRPAEFRAAQLQGLGRFLQENKQLLH
+                     DALAQDLHKATQLDSAFIRKEPFGLVLIIAPWNYPLNLTLVPLVGALAAGNCVVLKPSE
+                     ISKNVEKILAEVLPQYVDQSCFAVVLGGPQETGQLLEHRFDYIFFTGSPRVGKIVMTAA
+                     AKHLTPVTLELGGKNPCYVDDNCDPQTVANRVAWFRYFNAGQTCVAPDYVLCSPEMQER
+                     LLPALQSTITRFYGDDPQSSPNLGRIINQKQFQRLRALLGCGRVAIGGQSDESDRYIAP
+                     TVLVDVQEMEPVMQEEIFGPILPIVNVQSLDEAIEFINRREKPLALYAFSNSSQVVKRV
+                     LTQTSSGGFCGNDGFMHMTLASLPFGGVGASGMGRYHGKFSFDTFSHHRACLLRSPGME
+                     KLNALRYPPQSPRRLRMLLVAMEAQGCSCTLL"
+     gene            5065..11028
+                     /gene="NDUFS8"
+                     /gene_synonym="CI-23k; CI23KD; MC1DN2; TYKY"
+                     /note="NADH:ubiquinone oxidoreductase core subunit S8"
+                     /db_xref="GeneID:4728"
+                     /db_xref="HGNC:HGNC:7715"
+                     /db_xref="MIM:602141"
+     mRNA            join(5065..5117,6536..6593,6670..6720,7307..7396,
+                     7495..7667,10637..10765,10846..11028)
+                     /gene="NDUFS8"
+                     /gene_synonym="CI-23k; CI23KD; MC1DN2; TYKY"
+                     /product="NADH:ubiquinone oxidoreductase core subunit S8"
+                     /transcript_id="NM_002496.4"
+                     /db_xref="GeneID:4728"
+                     /db_xref="HGNC:HGNC:7715"
+                     /db_xref="MIM:602141"
+     exon            5065..5117
+                     /gene="NDUFS8"
+                     /gene_synonym="CI-23k; CI23KD; MC1DN2; TYKY"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=1
+     CDS             join(6536..6593,6670..6720,7307..7396,7495..7667,
+                     10637..10765,10846..10977)
+                     /gene="NDUFS8"
+                     /gene_synonym="CI-23k; CI23KD; MC1DN2; TYKY"
+                     /EC_number="7.1.1.2"
+                     /EC_number="1.6.99.3"
+                     /note="complex I 23kDa subunit; complex I-23kD;
+                     NADH-ubiquinone oxidoreductase 23 kDa subunit; NADH
+                     dehydrogenase [ubiquinone] iron-sulfur protein 8,
+                     mitochondrial; NADH dehydrogenase (ubiquinone) Fe-S protein
+                     8, 23kDa (NADH-coenzyme Q reductase)"
+                     /codon_start=1
+                     /product="NADH dehydrogenase [ubiquinone] iron-sulfur
+                     protein 8, mitochondrial precursor"
+                     /protein_id="NP_002487.1"
+                     /db_xref="CCDS:CCDS8176.1"
+                     /db_xref="GeneID:4728"
+                     /db_xref="HGNC:HGNC:7715"
+                     /db_xref="MIM:602141"
+                     /translation="MRCLTTPMLLRALAQAARAGPPGGRSLHSSAVAATYKYVNMQDPE
+                     MDMKSVTDRAARTLLWTELFRGLGMTLSYLFREPATINYPFEKGPLSPRFRGEHALRRY
+                     PSGEERCIACKLCEAICPAQAITIEAEPRADGSRRTTRYDIDMTKCIYCGFCQEACPVD
+                     AIVEGPNFEFSTETHEELLYNKEKLLNNGDKWEAEIAANIQADYLYR"
+     exon            6536..6593
+                     /gene="NDUFS8"
+                     /gene_synonym="CI-23k; CI23KD; MC1DN2; TYKY"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=2
+     exon            6670..6720
+                     /gene="NDUFS8"
+                     /gene_synonym="CI-23k; CI23KD; MC1DN2; TYKY"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=3
+     gene            7248..7306
+                     /gene="MIR7113"
+                     /gene_synonym="hsa-mir-7113"
+                     /note="microRNA 7113"
+                     /db_xref="GeneID:102465669"
+                     /db_xref="HGNC:HGNC:49947"
+                     /db_xref="miRBase:MI0022964"
+     precursor_RNA   7248..7306
+                     /gene="MIR7113"
+                     /gene_synonym="hsa-mir-7113"
+                     /product="microRNA 7113"
+                     /transcript_id="NR_106963.1"
+                     /db_xref="GeneID:102465669"
+                     /db_xref="HGNC:HGNC:49947"
+                     /db_xref="miRBase:MI0022964"
+     ncRNA           7249..7269
+                     /ncRNA_class="miRNA"
+                     /gene="MIR7113"
+                     /gene_synonym="hsa-mir-7113"
+                     /product="hsa-miR-7113-5p"
+                     /db_xref="miRBase:MIMAT0028123"
+                     /db_xref="GeneID:102465669"
+                     /db_xref="HGNC:HGNC:49947"
+                     /db_xref="miRBase:MI0022964"
+     ncRNA           7284..7306
+                     /ncRNA_class="miRNA"
+                     /gene="MIR7113"
+                     /gene_synonym="hsa-mir-7113"
+                     /product="hsa-miR-7113-3p"
+                     /db_xref="miRBase:MIMAT0028124"
+                     /db_xref="GeneID:102465669"
+                     /db_xref="HGNC:HGNC:49947"
+                     /db_xref="miRBase:MI0022964"
+     exon            7307..7396
+                     /gene="NDUFS8"
+                     /gene_synonym="CI-23k; CI23KD; MC1DN2; TYKY"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=4
+     exon            7495..7667
+                     /gene="NDUFS8"
+                     /gene_synonym="CI-23k; CI23KD; MC1DN2; TYKY"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=5
+     gene            8281..8365
+                     /gene="MIR4691"
+                     /gene_synonym="mir-4691"
+                     /note="microRNA 4691"
+                     /db_xref="GeneID:100616403"
+                     /db_xref="HGNC:HGNC:41796"
+                     /db_xref="miRBase:MI0017324"
+     precursor_RNA   8281..8365
+                     /gene="MIR4691"
+                     /gene_synonym="mir-4691"
+                     /product="microRNA 4691"
+                     /transcript_id="NR_039840.1"
+                     /db_xref="GeneID:100616403"
+                     /db_xref="HGNC:HGNC:41796"
+                     /db_xref="miRBase:MI0017324"
+     ncRNA           8294..8316
+                     /ncRNA_class="miRNA"
+                     /gene="MIR4691"
+                     /gene_synonym="mir-4691"
+                     /product="hsa-miR-4691-5p"
+                     /db_xref="miRBase:MIMAT0019781"
+                     /db_xref="GeneID:100616403"
+                     /db_xref="HGNC:HGNC:41796"
+                     /db_xref="miRBase:MI0017324"
+     ncRNA           8333..8355
+                     /ncRNA_class="miRNA"
+                     /gene="MIR4691"
+                     /gene_synonym="mir-4691"
+                     /product="hsa-miR-4691-3p"
+                     /db_xref="miRBase:MIMAT0019782"
+                     /db_xref="GeneID:100616403"
+                     /db_xref="HGNC:HGNC:41796"
+                     /db_xref="miRBase:MI0017324"
+     exon            10637..10765
+                     /gene="NDUFS8"
+                     /gene_synonym="CI-23k; CI23KD; MC1DN2; TYKY"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=6
+     exon            10846..11028
+                     /gene="NDUFS8"
+                     /gene_synonym="CI-23k; CI23KD; MC1DN2; TYKY"
+                     /inference="alignment:Splign:2.1.0"
+                     /number=7
+ORIGIN
+        1 tcccagtccc tccactcagc aggcacatga cacccctctc ctgggatgcc tccctactgt
+       61 ccagtactgc cctgctgcca ctacaccctc catgtcccca agcaacacta ggtttcctgc
+      121 ccctaccccc agccctaaga gtctgtgcca tcagcatgga ccacacatga gcagatgtcc
+      181 aggaaacatg tcccaagttg gaagcttcat gaggagctgc tacacaaccc cctgccccac
+      241 ctgtaccatc acaggccctt cagctgacat ggtggcctca gaccctttct gaggcaagat
+      301 cagtgtcaca gagtccagca tggaacaggc tctgggtcct gaggatcctg atggggctca
+      361 aggcagcctc acgcacatcc tgttctctcc caggtggtca agcgggtgct gacccagacc
+      421 agcagcgggg gcttctgtgg gaacgacggc ttcatgcaca tgaccctggc cagcctgcct
+      481 tttggaggag tgggtaggtg cctgctaccc tgcccttctg ttaccatttg gtcaaattgc
+      541 aatagtgtta cctgcataca tttctgccaa agcaccccag ccccacctca atgtagaggg
+      601 acaggcaagg aggcctcacc ccagaacccg catcctgctc cccaccccag agggtctgag
+      661 tccaatctgg gcaacacagt aagaccccat ctcaaaaaaa agtctgtggt ggaaccttct
+      721 agaccatctc tgcacagaca cacaatttag tgaattttta aaaataccac acaactatga
+      781 tcacactgcc cactgcgatg ctatttgctc ttctccccaa cagcatgacc tggtgtctgc
+      841 ccctcagcag caatgccgcc ggtgtccttt actccagggc agctgctcct ctaaccccat
+      901 cccccctcca gctctcagta caacacctcc ccaccctgag aggcccggat gagtgccaat
+      961 cctccacccc ccagagcagc cccgatgcca ctgcagagtc ctggcctctg agtcaggaag
+     1021 cctcagagat ggtcctagca acacgctgaa ggccctgtgg cccaggtgac atctcccctt
+     1081 tctgagccca cttcctcctc agagaacagt aggccccgag caggtgacag gcagtcccgc
+     1141 cacctgtcca cactcagcac cacagtgaac gatggcaggg ccaggcaagc tgcctcaggt
+     1201 gggtccatgc ccttcctgga gggcagccag gggcacaaca gtgcctgtgc tgctgtcctg
+     1261 gctcggctcg agtttgggcg gctgcccccg accccaccta gctgcctccc cagccccagc
+     1321 cccagcctcc tcaacccgcc tccctgccct ggaggagagt cggggctgtc tgtgggcaca
+     1381 tctgaccctg ctgctccctc aagaaagcct cccccagctc ccaggccccc gagctgaccc
+     1441 ttcttggtgg ccgtggcccc accccggctt ccccacctgc tgctcccaca gcctgagctc
+     1501 tgcccaggtc cctaacacac cgcatggcac ccacctctaa ggctccccaa gcctgggtcc
+     1561 ctcttgcccc cacccactct cttcgtctta ttaactgcat atccttggag ctcactcact
+     1621 gcaggaagcc ccccagccaa ccccactcca cccaggctgt gctctgaacg ccctggcctg
+     1681 gggcctcgtc tgcctcccaa cctagacgct gaggagagtt cactgcacat agcacctact
+     1741 gggtccaggg gtctcaacat cccctcaatc cccaccacaa ccttaggagg gaggtaccct
+     1801 tgtcacccca cgacagagga gactgaggca cagtccaagg tgacatggat tgtttgcagc
+     1861 agggccagag tttaaccccc ggcagtctga ctctggaatc catgcccttg accaccaccc
+     1921 gcctatcttg ccctggcatc tggcatcccc agggcttact gagctggtgc caagctcggg
+     1981 gccaagccct ttacacacag tgcctcatga tcagcccact ggacagatgg ggaaactgag
+     2041 gctcagaggg gagaagtagc ccgcctaggc cccactgtct gtgactagga gacccccagc
+     2101 gcctgaccac ctgtgttctg tgccactgta caggtgccag tgggatgggc cggtaccatg
+     2161 gcaagttctc cttcgacacc ttctcccacc atcgcgcctg cctcctgcgc agcccgggga
+     2221 tggagaagct caacgccctc cgctacccgc cgcaatcgcc gcgccgcctg aggatgctgc
+     2281 tggtggccat ggaggccaag gctgcagctg cacactgctc tgagcccttc cccaggccca
+     2341 ggctgtagac caccatgaca gctgtcgcct gcggctggtg gagacggggc ctgggctccc
+     2401 gggcccgagg aggaaaagga ttgccaaggc tccagggcac ccctcaaagc agcgcctgcc
+     2461 tcctccctcc tgggtcttcc ctctccctgc ctcagcctcc tccctcagcc gctcccaacc
+     2521 atgagagccg aggtgggagg catgggaaac agtgcagtga ctcaccccct gcccccgcac
+     2581 caaccaccca tattcaggag aagaggacag acacggcacc tctgagtcac ccctctcctg
+     2641 tggagcgggc gtccgagggg ccctggcatc tgactcaggc cacaccatgg aatcactgca
+     2701 tccaaggcca ttcctgccct ctctgagtct cagtttttcc atttgttcag tggagagaat
+     2761 taaccattga tacctcctgg ctgggtgagg cggctcacac ctgtaatccc agcactttgg
+     2821 gaggccgagg caggcggatc acctgaaatc aggagttcaa gatcagcctg gctaacatgg
+     2881 cgaaaccccg tctctactaa aaatacaaaa attagcctgg cgtggtggcg catgcctgta
+     2941 atcccagcta ctcaggaggc taaggcagga gaatcgcttg aacccgggag gtggaggttg
+     3001 ccgtgagctg agattgcgtc actgaactcc ggcctgggtg acagaaggag gctctgcctt
+     3061 aaaaaaaaaa aaaaaaaaaa cctcctggga ctgttgcaag gatgaaatga aggattgagg
+     3121 gattgaggga ttgctgagct ggagctccag gtgtcctatc tttctcagtg gggtggcacg
+     3181 gagcggggcc gcctccctct tctctccagg caggtggggc tgtggttatg cgatagggtc
+     3241 tcccttccct ccagcccatg ccagaggagc ttgtaactct ttatcctcat ggtgcccact
+     3301 acgagtcata ctcttcccca tgctgctcat cctcctgggc cccatccact cagccaaagc
+     3361 agaatgcagg gtttcctgcc tgacaaccct tctcacctcc caagtcccac ttttgaacaa
+     3421 gctgatgatt ctgaaactgg cccaatttcc taacaagccg gatgcttgag aaacctacat
+     3481 ttggacaatg agaggctgct cctgcggcct gcgggccacc tcctcttcct tggctcctgc
+     3541 tttcttttta gactatatca acctacaact ttagtcggga agagggacag gggtggacct
+     3601 gagtttcgtc tcctgtctct ctggctgatg tcacctgaat aaagccttct tccctggcaa
+     3661 tacttacatc tcagtgattt gctttctgtg catctagcaa caggactctg gaccaaggcc
+     3721 ctggcgttgg gtaacaattc tgtaatgctg caggacttcc ccaatccacg caggaatccc
+     3781 cgcaggcatc cacgcaggaa tcacctgatg aagggccagg gtcaggtgtg ggccaccatc
+     3841 ccaagacctc ccttctctct agggccagcc cctctcctct gagcacctgc tgaccagccc
+     3901 aaagccctct ccactcctca gcttgaactc ccccagggtc tccctgtggc ccacaggtcc
+     3961 tttggaggct cgggcatctg catgcaaatc ccaaaccact gtcccctttg cacacactga
+     4021 gcctgccctt gtcctcgtcc tggtctacca tgcgtgtcct ccctctgcac gggcatggga
+     4081 catgccctct gcctccttcc tgtcctggcc tgcccaactc ctacctaccc tcagcgcaga
+     4141 tcctcccaac acacacatgc aggcagcctc ggggcctctg cgggtccctc taccacagca
+     4201 ttcccgggga aaggcccggc gtggtggctc acgcctgtaa tcccagcact ttggcaggcc
+     4261 gaggcaggag gatcgcctga gtccaggagt tccagaccag cctgggcaac atggcgagac
+     4321 cccgtctcta caaaaaatac aaaaattagc cgagcctggt ggtggcaggc gactgtggtt
+     4381 ccagctgctc gggaggctga gaagtgagga tcacccgagc ctgggaggtc gaggctgcag
+     4441 tgagccgaga tcgcaccact gcattccagc ctgagccaca gagccagatt gtctcaaaaa
+     4501 aagaaaaaaa aaaaaaaaaa aaaaaaaatt cgctggtagg aaacataggc tggttgagta
+     4561 cgggagtcat acagatcagg tggatcaggc ggccgcacac cgcagctcta cggcccggga
+     4621 acgttactaa atactcccat gcctcagctt cccgccttaa cgtggtaaca cgttactgta
+     4681 gtttctccac gcagagctgc tgtgaggatt aaaagaggcc gcgtgagttg agcatctcgt
+     4741 cgccattacc gtcatcacac gccccccacc caacccggcg ggcccaccct ctgcacccac
+     4801 ggcgaaagca ctctttctaa accacgcccc ggatgtcccg cctccagcgg ctcggaggtc
+     4861 ttcacttatt ggcctcccca aaccaacatg gcggccccct acaaacttca agcgccggtc
+     4921 tctcctagcc aatcaaaaga aagatatttc tgaatcccgc ctctttcagc agccttgctg
+     4981 gccaatcaga ccacaccatg aagcatcaat acagaaaagg gggaacccgc tggcccaatg
+     5041 gcagcgtcct acagtgtagc ctccgcctcc cgattgactg gcctgcttgg caaggcaagt
+     5101 agcggcggcg cttcaaggtg ggtgttcacg ttttggccgt gaaagtcggg cttgggcagc
+     5161 gtggcgtcgg gggcgagtgt ggtgtccccg ttggcgccgc cagctctgcg cctgggcttc
+     5221 ccctcggctc actcaggatc cgcggcctcc gtgtccttca ggtgcagcgg ggagccggct
+     5281 ctcagggcgc atgcgccgcc cgctctgcgc caccggccta gttagggtcg gagatcactg
+     5341 ggaaggtggg gaaggtgctg ggttgggtcc ctggaactgc agtcagtgat ccaaaggagt
+     5401 gggcctgtta gggggttcac aggtcgtggg atgagctctt atgagcgccg gctaagtgcc
+     5461 gggctctggg gtgcccttgg catgtacggg ctcccctaat tcccaagacc aaccgccccc
+     5521 aacccacttc ataggtgaga agacggaggt caggtcacat catctgccca aggtcacgcg
+     5581 gcaggctggg ggacagttcc aggagggcct tgaagctggg gaaaggaatg tggtaccgag
+     5641 gactgttcag gccttgaaga gtttccagca gggcagggct gggttccgat cctcggccca
+     5701 cctccttatc gtgtgacttc cgacaagtca cttttttatc ttttttttga gacaaggtct
+     5761 cactctgtcg cccaggttgg agggcagtgg tgcagtctgg gctcactgca acttctgcct
+     5821 cctgggttca agcgattctc ctacctcaac ctcccgagta gctgggatta taagtgccca
+     5881 ccaccacacc tggctaattt ctgtattttt tggtagggac ggggttccac catgttagcc
+     5941 aggctggtct caaactcctg acctcaggtg atccacctgc ctcagcctcc caaagtgctg
+     6001 ggattacagg cgtgagccac cacacccagc cctagcgagt cactcaacaa actgagtccc
+     6061 agcgccttat ttgtgcctcc ctcgtggagt ccttgtaagg ataggatggc agcgctttcc
+     6121 acccctgggc acggttcctg ggggaggaga gctaacaaag ttcgctctca gtgcatgctg
+     6181 gcgggggctg gtaatgttgt ttttggttag atttggggag gatgaaggga ggagcagaaa
+     6241 ggtgggaaac aggatctctg ggagggagaa aggaaggatg gatttaaaag gtttcttagg
+     6301 tgaggcagaa cttggggtcc acagaaactg aattgtagct cagccaagct gaatcagatg
+     6361 gaaagctggg aggcgctggg aacaggaaag ccatctgtgc ctctgacagc aatggggtgc
+     6421 gagtagaggg caaagtgaca catgtcagtg gagacttggg atccttgcgg tgccagtctc
+     6481 agaagaggat ggttcttggg cacaccccac cctccatccc tttttatgcc accagatgcg
+     6541 ctgcctgacc acgcctatgc tgctgcgggc cctggcccag gctgcacgtg caggtaggac
+     6601 caaagaagcc tttgctgggg gtaggggagt ccagtctcct ggtatgacgt cacgcccttc
+     6661 tttttgcagg acctcctggt ggccggagcc tccacagcag tgcagtggca gccacctaca
+     6721 gtgagtacct gggtggcctc tagcctcagg tgttcctgac tggtcctgct ggagtagggg
+     6781 aagagacctg agttccagtc ctggctttgt caggggcgtt cttctctgag cctgtttcca
+     6841 cttttaaaat gattatggtg atggagactg actctgattc acaggggcag ggtccatcat
+     6901 tgccgaggtt agcatgtgtg atctcagagc tccctgggtg tgatggggag ggggttgcca
+     6961 ggtgtgagcc atgggtacct gtgcctattg ccagtccctg gtgaaggcaa aggctcaagc
+     7021 cccccaccta ccccccttga ttcctctttc aagccctgtt gggcagggaa gtgcgtctgg
+     7081 gctccaatgg ccacccaagc acagggagag gtaggcacgg acgggctcag gccagaggcg
+     7141 gcctccaggg tccttgctga ggctggggag aggtgtggtg agtgtacagc ccctttgtag
+     7201 cccagcagtt gcacctggaa gtgagggcca ggctgctctc cctgaggctc cagggagaca
+     7261 gtgtgtgagg cctcttgcca tggcctccct gcccgcctct ctgcagagta tgtgaacatg
+     7321 caggatcccg agatggacat gaagtcagtg actgaccggg cagcccgcac cctgctgtgg
+     7381 actgagctct tccgaggtgc gtcctgggca tgaggggaca gggaaggtgc cgggtgggca
+     7441 cggatgcatg ggggaggagg gtgcccctgc ccaccacacc cgtgctgccc acaggcctgg
+     7501 gcatgaccct gagctacctg ttccgggaac cggccaccat caactacccg ttcgagaagg
+     7561 gcccgctgag ccctcgcttc cgtggggagc atgcgctgcg ccggtaccca tccggggagg
+     7621 agcgttgcat tgcctgcaag ctctgcgagg ccatctgccc cgcccaggtg agcccctgcc
+     7681 ccaaccggcc accacgccag cccctgccac tgggagaggg aggccaggca gccctaggcc
+     7741 caaaccctag cccctgcttg atgtgcgtcc ccaggaagtc cctttccccc tctgagccac
+     7801 ttccctcgtg aatgggaatg atgagggctt gttaccagag cacagagtca gtgagttggc
+     7861 agagtgaagc ttccagccct gggcaggcgc ctgacacaca gaggttcccc cttggggtct
+     7921 ggccaagggt gtgacccctg ggcctctgag ccatggggtg acacctgagg ccatccacgc
+     7981 ctccctggat gtagccaccg tttccggagt cctgcttgtg tgcctgttgc agcttccctt
+     8041 ccccagtggc tgctcccctg aggcccggct ttccgttctc ttagtgggtc tcgtgcttac
+     8101 ccgtgggggc caggcctgcc agcacgggaa caatatgact cggtcagagc tctggtcaga
+     8161 cccctgtgtg tgcctggcag gagccccggc agccgccgcc gctactttct gtgtgcacag
+     8221 caacccctcc cagtgttctg tgactcgggt ggctcctgtc cagatcctag tttgtcctct
+     8281 ggagcactcc caggtcctcc aggccatgag ctgcggccct gatgtctcta ctccagccac
+     8341 ggactgagag tgcataggag tgtccccaaa cagcagtcac gatggtcaca accttggctt
+     8401 ccagacagtg agtgctgtcc acagacagac ccggtgctgt gccatgtgtg tgactcacag
+     8461 cctctcctgt aatctccaca acccctcgag gaggtcgagg ttattgtctc catctttata
+     8521 agcactaaag gatgagcctg ccagccacag gtcccactgt gagttgtgga cactacattt
+     8581 ctgggatggg ggcatatgag agtccttgcc aagcacattt gaaggttttc ccagccagcc
+     8641 cctcccccag cgggctaccc aggaactgag agttaggacg tgcccttgag tttgggctgt
+     8701 gcccccactt gctgtgtagc tttggggagc ccctcaacct ctcggaacct tgtttttctc
+     8761 atccatcaaa tggagagaag tagatttaag gcacaggatt gcacccaaca gtgtaggcat
+     8821 tcttggcgat gttgcaggtt cggctccaga ccatcggggt aaactgagtc acacagctgt
+     8881 tttggttttc cagtgcattt aaaagttaga tttagaccgg gcacagtggc tcatgcctgt
+     8941 aattccagca ctttgagaag ccgaggtggg cggatcactt gaggtcaaga gttcgagacc
+     9001 agcctggcca acatagtgaa accccgtctc tactaaaaat aacaaaactt agccgggcac
+     9061 gttggcaggt ccctgtaatc tcagctactt gctaggctga ggcacgataa tcacttgaac
+     9121 cgggaggtgg gggttgcagt gagccaaaat tgaaaaaaaa aaaaaaaatt agggccggtt
+     9181 gcggtggctc acgcctgtaa tcccagcact ttgggaggcc aaggtgggcg gatcacaagg
+     9241 tcaggaattc aagaccagcc tggccaacat gttgaaaccc cgtctctagt aaaaatacaa
+     9301 aaattagccg ggtgtggggt tgcacacctg tagtcccagc tactcaagag gctgaggcag
+     9361 gagaattgct tgaacctggg aggcggaggt tgcagtgaac tatgattgca ccaccatact
+     9421 ccatcctggg ccacagagca agacttcgtc tcaaaaaaaa aaaaaggatt tacactgtac
+     9481 tgtaggctgc gaagtgtcta aaacacaatg tatatacctt aattaaaaat actttagggg
+     9541 ccaggcacag tggctcacac ctgtagtcca agtgctttgg gaggtcaagg tgaggggatt
+     9601 acttgagccc aggagtttga gaccagcctg ggcaacatgg caaaaccccg actctacaac
+     9661 aacaacaaaa aatacaaaaa attagcccct gtaggcccag ttacttggga ggttgaggtg
+     9721 ggaggatcgc ttgagcctgg gaggttgagg ctgcagtgag ctatgagctg caccactgta
+     9781 ctccagcctg ggtgacaggg caagactctg tctcaaaaaa caaaaacaac aacaaaaact
+     9841 ttattcctaa aaagtgctga cccagagata agaagcaagc acatggttgg taaaatgaca
+     9901 tcagtgagct tgctttatgc agggttgccc caaaccttca atttgtaaaa ctcaaaatat
+     9961 ctggaaagct tggtgaggcg aggcgggact gtaactcagc actcaccgca gggtgagacc
+    10021 cttagggcag cgggtgctac actgaacaaa gcggtgaaca gccccctcgt gagagggggt
+    10081 tcttggcaga tgacgccagc agctgacaaa caggcaaggc aggccgggca cggtggctca
+    10141 cgcttgtaat cccagcactt tgggagtcca aggtaagcgg atcacaaggt caagagatcg
+    10201 agaccatcct ggtctacatg gtgaaacccc atctctacta aaaaatacaa aaattagctg
+    10261 ggcgtggtga tgcacacttg tagtcccagc tactcagggg gctgaggcag gagaatcact
+    10321 tgaaccggga aggccgaggt tgcagtgagc cgagattgtg ctgctgcact ccagcctggc
+    10381 gacagagcga gactctatct caaaaaaaaa aaaaaaaaaa aaaaaaccag caaggcaggg
+    10441 acgccagcag ggcacgtgct gaggagacag gcgcgagcac cagaggtgca gggcggcctc
+    10501 ttagccggag tccaggaggc ctttgagggg agagggcttc tggcagaccc caggggtggg
+    10561 gatgagcagt gacaggggcc ctgggggctg ggatgtgaca gggcagcgtg gcagtgtctg
+    10621 gtggcccctc ccgcaggcca tcaccatcga ggctgagcca agagctgatg gcagccgccg
+    10681 gaccacccgc tatgacatcg acatgaccaa gtgcatctac tgcggcttct gccaggaggc
+    10741 ctgtcccgtg gatgccatcg tcgaggcacg tgaggccccc gggtgggagg gggcctgagg
+    10801 ctcctcagca gggcctaacc accgtccctg cacctcaacc tgcagggccc caactttgag
+    10861 ttctccacgg agacccatga ggagctgctg tacaacaagg agaagttgct caacaacggg
+    10921 gacaagtggg aggccgagat cgccgccaac atccaggctg actacttgta tcggtgacgc
+    10981 cccaccggcc cgcagcccct gctgcccaat aaaaccactc cgaccccacg gcctcttgtc
+    11041 ttgactctgg tggtccaggg tggggccgtt cccggcctgc ctgaggcctg tggtgcctcc
+    11101 aactggacta ggtcgccacc tagtctttat gctctctgga gtcctgctgc cccagccctg
+    11161 ccttcctgta gactccaggg ccccaccagg ctctcatggc tagaccacag gccgcagcat
+    11221 ccctgtcacc ctgcctcttc ctgggcgtct tccccaaggc ccagcgatgc cagaggtcac
+    11281 cacagacctg ccgttcccac tctcccgggt gtcctggctg gggcctgggc ctcctgtctc
+    11341 ccaagagcca tccacttgta agacgcttag gacttggagc ctcccaagac ctcaggctga
+    11401 agaacagcaa gtggcagaaa ctcaggccgg ggcatccttg ctgggggtag gaggaagcct
+    11461 gcttggggtg acagtcacac gagggtgaca caggccctgc tggccctgag ctggcctgcg
+    11521 tccagccaca tcctctttcc tgtgttccct acgccagggt gctggcccgg ccactgctca
+    11581 ccacttcctg ctttgctggc ccagcgacac ggtggggttt ccctagggcc acacacaagc
+    11641 cccttgccca tataatggcc aaaagcagcc cccctgaact tgtgctaagt actgtggaag
+    11701 gatttcactt catttgcagt gaggaaacca gctccgagag gtgaaagggc ttgctcaggg
+    11761 ccatgcaggg cacatcccat aataaaactc agttcagaga ccttgacccc ccccatctac
+    11821 catcatttcc aaaagtgctt tttacaaagc actactttgt aaaaagctac ttcttcgaaa
+    11881 gaacaagttt cctggcccag tgagtgttgg aaatgctcca gctgctgtgt gcctgctggc
+    11941 aggtactgca tggtagacat tcaaggctct gagaaggcct gcagcaaaaa caccagcctc
+    12001 tcccagccca ttcccaggga gcttttctca ggtctaacac ctgggcctcc ttcctagacc
+    12061 aggcattgcc atctaatgcc aaagtggcca ggctcccgct tgggccccac agcctgtggc
+    12121 actggggtga gaagtaactg caggaggcga ggggaagcct ggagcccggg aagtgtccac
+    12181 aggtctggcc cgcagctcat cttggccact gatgaaaaca ggtgttcttt ccaaaaacaa
+    12241 ggcaggcgca ggactcctga agcaccgccg gtttagcttt tcccagacgt aaccgccgtc
+    12301 agagcgtggc atggagcctg tagctgtgca ctgaatactt ctattccaag cgggtcagtc
+    12361 tttccagctc accgctgggt tctttccctt accgtggtct cccaggcact tactgctgag
+    12421 accccactca ggctgtctgg ttgtatcagg ccccgaccct gtcagaacag gcctatggcg
+    12481 cccaaccaca agtcccccaa ttttctgagg aaccacagct gagcttggct gtgactcagt
+    12541 ttccaggccc ggctctgggg ctccacttgt ccacccctgc cgcagcccca caggcctgtg
+    12601 ctcgctgtgt ggggcttagg gatcaccaga gctgaagggc ccctggcctc cagtgggaat
+    12661 gccccaggcc tgtccaaagt gcaggcagct ggacggtcgt gagtcccagc ttccaggcac
+    12721 taggacctga tgacgcccat ggtgctgacc tggagcaagg tcacagtgac acccccctct
+    12781 accccccgcg gctgcagctg caggtggagc tgacagctgg cctctggccc cagggtatct
+    12841 cccagggcct gctgggtgcg gggcgctggg cagaacaagg cagcatggcc tggccctgtg
+    12901 tcctgctgcc agtgaagcag gcccagagtg gggcagccac ccacccaagg gccagagcgg
+    12961 ggcctctcca gggtggtcaa gagcaggaag gtgtaagcac cggcgggttt cactgccgcc
+    13021 caagggaggg g
+//
