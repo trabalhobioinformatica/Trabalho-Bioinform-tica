@@ -1,0 +1,94 @@
+
+#Este programa deverá ser utilizada para cada uma das proteinas em estudo
+#Neste exemplo encontra-se associada somente a proteína CI-75KD
+
+
+from urllib.request import urlopen
+from io import TextIOWrapper
+from Bio import SwissProt
+from Bio import ExPASy
+
+			#retorna o ficheiro descritivo da Proteina, guaradado no git Hub
+			#Lê o ficheiro com base na swisprot
+
+handle = urllib.urlopen("http://www.uniprot.org/uniprot/P28331")
+record = SwissProt.read(handle)
+
+			#Realiza o parsing da proteina
+handle = ExPASy.get_sprot_raw("P28331")
+
+record = SwissProt.read(handle)
+descriptions = [record.description for record in SwissProt.parse(handle)]
+len(descriptions)
+			
+
+			#Grava um Ficheiro de texto com as informções relativas à proteina
+			
+
+save_file = open("P28331.txt", "w")
+save_file.write ("SWISSPROT REGIST" + "\n")
+save_file.write ("\n")
+ 
+for ref in record.references:
+    text1="authors:"+ ref.authors
+    text2="title:" + ref.title
+    text4= record.description
+    text3="Classificação dos organismos:"+ str(record.organism_classification)   
+    save_file.write(text4+"\n"+text3+"\n"+text2+"\n"+text1)
+    save_file.write("\n")
+    handle.close()    
+ 
+save_file.close() 
+
+
+			#Analisa o ficheiro em formato fasta corespondente à proteina em estudo
+			#contabiliza a frequnecia dos aminóacidos encontrados
+
+
+def freqAminoacidos(x):
+    x= SeqIO.read(open("CI-75KD.fasta"), format="fasta")
+    tc = {"A":"Alanina", "C":"Cisteína", "D":"Aspartato",
+      "E":"Glutamato", "F":"Fenilalanina", "G":"Glicina",      
+      "H":"Histidina", "I":"Isoleucina", "K":"Lisina",
+      "L":"Leucina", "M":"Metionina","N":"Asparagina",
+      "P":"Prolina","Q":"Glutamina","R":"Arginina", 
+      "S":"Serina","T":"Treonina", "V":"Valina", "U":"Selenocisteína",
+      "W":"Triptofano", "Y":"Tirosina"}
+    if x in tc:
+        aa = tc[x]
+    else: aa = ""
+    return aa
+    print("A seq de aa é:"+ aa)
+
+
+def frequencias(seq):
+    x= SeqIO.read(open("CI-75KD.fasta"), format="fasta") 
+    frequencias={"Alanina":0, "Cisteína": 0, "Aspartato":0,"Glutamato":0,
+               "Fenilalanina":0, "Glicina":0, "Histidina":0, "Isoleucina":0,
+                "Lisina":0, "Leucina":0, "Metionina":0, "Asparagina":0,
+                "Prolina":0, "Glutamina":0, "Arginina":0, "Serina":0,
+                "Treonina":0, "Valina":0, "Selenocisteína":0, "Triptofano":0, "Tirosina":0}
+    for i in len(x):
+        frequencias['Alanina']= ((seqM.count('A'))/tamanho)*100 
+        frequencias['Cisteína']=((seqM.count('C'))/tamanho)*100
+        frequencias['Aspartato']=((seqM.count('D'))/tamanho)*100
+        frequencias['Glutamato']=((seqM.count('E'))/tamanho)*100
+        frequencias['Fenilalanina']=((seqM.count('F'))/tamanho)*100
+        frequencias['Glicina']=((seqM.count('G'))/tamanho)*100
+        frequencias['Histidina']=((seqM.count('H'))/tamanho)*100
+        frequencias['Isoleucina']=((seqM.count('I'))/tamanho)*100
+        frequencias['Lisina']=((seqM.count('K'))/tamanho)*100
+        frequencias['Leucina']=((seqM.count('L'))/tamanho)*100
+        frequencias['Metionina']=((seqM.count('M'))/tamanho)*100
+        frequencias['Asparagina']=((seqM.count('N'))/tamanho)*100
+        frequencias['Prolina']=((seqM.count('P'))/tamanho)*100
+        frequencias['Glutamina']=((seqM.count('Q'))/tamanho)*100
+        frequencias['Arginina']=((seqM.count('R'))/tamanho)*100
+        frequencias['Serina']=((seqM.count('S'))/tamanho)*100
+        frequencias['Treonina']=((seqM.count('T'))/tamanho)*100
+        frequencias['Valina']=((seqM.count('V'))/tamanho)*100
+        frequencias['Selenocisteína']=((seqM.count('U'))/tamanho)*100
+        frequencias['Triptofano']=((seqM.count('W'))/tamanho)*100
+        frequencias['Tirosina']=((seqM.count('Y'))/tamanho)*100
+    return frequencias
+    print("Frequência de cada aa:"+ frequencias)

@@ -1,0 +1,50 @@
+#Para a Proteina CI-23KD substitui-se toda a referencia a CI_75_KD pela anterior)
+
+
+from Bio.Blast import NCBIXML 
+from Bio.Blast import NCBIWWW 
+from Bio import SeqIO
+from Bio import Entrez
+
+			#analisa a sequência da protéina
+
+registo=SeqIO.read("CI_75_KD.fasta","fasta")
+sequencia=ficheiro.seq
+dimensão=len(sequencia)
+
+			#Realiza o blast com a sequencia proteica anterior
+			#Regista o resultado num ficheiro formato .xml
+
+blast=NCBIWWW.qblast("blastp","nr",registo.format("fasta"))
+
+save_file=open("blast_CI_75_KD.xml","w")
+save_file.write(blast.read())
+save_file.close()
+blast.close()
+			#Realiza o parsing com a sequencia proteica anterior
+			#analisa-se os parametro gerais da pesquisa
+
+resultados=open("blast_CI_75_KD.xml")
+blast_resultados=NCBIXML.parse(resultados)
+for blast_resultados in blast_resultados:
+    matriz=blast_resultados.matrix
+    base_dados=blast_resultados.database
+    espacamentos=blast_resultados.gap_penalties
+			
+
+			#verifica o numero de alinhamentos e analisa com promenor o primeiro destes
+			#accession numbers - identificador único dado a uma sequência de polímero biológico (DNA, proteína)
+			#quando é submetido a um banco de dados de sequências
+			# e-value - probabilidade de alinhamento aleatório: 
+			#(cálculo estatístico- baseado na qualidade do alinhamento (a pontuação) e no tamanho do banco de dados.)
+
+nhits = len (record.alignments)
+resultados_alinhamento=blast_resultados.alignments
+print(len(resultados_alinhamento)) 
+print(resultados_alinhamento[0])
+alinhamento=resultados_alinhamento[0]
+print(alinhamento.hit_id)
+print(alinhamento.hit_def)
+print(alinhamento.accession)
+print(alinhamento.hsps)
+print(len(alinhamento.hsps))

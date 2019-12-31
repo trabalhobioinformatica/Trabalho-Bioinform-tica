@@ -1,0 +1,40 @@
+from Bio.Blast import NCBIXML 
+from Bio.Blast import NCBIWWW 
+from Bio import SeqIO
+from Bio import Entrez
+
+#Este ficheiro guarda em formato fasta as sequências homólogas obtidas para poderem servir de input para programas de construção de àrvores filogenética.
+#Para a Proteina CI-23KD substitui-se toda a referencia a CI_75_KD pela anterior)
+registo = SeqIO.read(open("CI_75_KD.fasta"), format="fasta")
+
+result_handle = NCBIWWW.qblast("blastp", "nr", registo.format("fasta"))
+
+save_file = open("blast-CI_75_KD.xml", "w")
+save_file.write(result_handle.read()) 
+save_file.close() 
+result_handle.close()
+
+result_handle = open("blast-CI_75_KD.xml")
+record = NCBIXML.read(result_handle)
+
+nhits = len(record.alignments) 
+print ("number hits: ", nhits)
+
+Entrez.email = 'tbioinformatica@gmail.com'
+
+res = []
+for alignment in record.alignments:
+    evalue = alignment.hsps[0].expect
+    accession = alignment.accession
+    leng = alignment.hsps[0].align_length
+    
+    #guardar em ficheiro fasta as sequências homólogas obtidas
+    handle = Entrez.efetch(db="protein", id=accession, rettype="fasta", retmode="text")
+    seq_record = SeqIO.read(handle, "fasta")
+    SeqIO.write(seq_record, accession + '.fasta', "fasta") 
+    handle.close()
+    
+    res.append(accession + " - " + str(evalue) + " length:" + str(leng) )
+
+print("E-values and length of alignments:")
+for s in res: print(s)
